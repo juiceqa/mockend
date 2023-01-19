@@ -1,14 +1,43 @@
-[
-  {
-    "objectId": 1246965,
-    "propertyName": "lifecyclestage",
-    "propertyValue": "subscriber",
-    "changeSource": "ACADEMY",
-    "eventId": 3816279340,
-    "subscriptionId": 25,
-    "portalId": 33,
-    "appId": 1160452,
-    "occurredAt": 1462216307945,
-    "subscriptionType": "contact.propertyChange",
-    "attemptNumber": 0
-  }]
+{
+  "id": "123456",
+  "createdAt": "2020-02-20T18:07:11.390Z",
+  "updatedAt": "2020-02-20T18:09:07.555Z",
+  "properties": [
+    {
+      "updatedAt": "2020-02-20T18:07:11.802Z",
+      "createdAt": "2020-02-20T18:07:11.802Z",
+      "name": "my_object_property",
+      "label": "My object property",
+      "type": "string",
+      "fieldType": "text",
+      "groupName": "my_object_information",
+      "displayOrder": -1,
+      "calculated": false,
+      "externalOptions": false,
+      "archived": false,
+      "hasUniqueValue": false
+    }
+  ],
+  "associations": [
+    {
+      "id": "123",
+      "fromObjectTypeId": "2-123456",
+      "toObjectTypeId": "0-1",
+      "name": "my_object_to_contact"
+    }
+  ],
+  "labels": {
+    "singular": "My object",
+    "plural": "My objects"
+  },
+  "requiredProperties": [
+    "my_object_property"
+  ],
+  "searchableProperties": [
+    "my_object_property"
+  ],
+  "primaryDisplayProperty": "my_object_property",
+  "metaType": "PORTAL_SPECIFIC",
+  "fullyQualifiedName": "p7878787_my_object\"",
+  "name": "my_object"
+}
